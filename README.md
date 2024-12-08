@@ -1,6 +1,4 @@
-# SchemaCrawler-Docker
-
-## GitHub Actions Workflow and Docker Image
+# GitHub Actions Workflow and Docker Image
 
 This repository includes a GitHub Actions workflow that packages a Java "Hello, world" command line program into a Docker image. The Docker image is based on Alpine with Eclipse Temurin and is available for all chip architectures.
 
