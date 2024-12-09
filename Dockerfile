@@ -5,7 +5,7 @@ FROM eclipse-temurin:21-jdk-alpine
 WORKDIR /app
 
 # Copy the built Java application into the container
-COPY target/hello-world-1.0-SNAPSHOT.jar /app/hello-world.jar
+COPY ./target/hello-world-1.0-SNAPSHOT.jar /app/hello-world.jar
 
 # Define the entry point to run the Java application
 ENTRYPOINT ["java", "-jar", "/app/hello-world.jar"]
